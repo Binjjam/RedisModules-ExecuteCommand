@@ -16,7 +16,7 @@ all: module.so
 
 module.so:
 	$(MAKE) -C ./$(SRC_DIR)
-	cp ./$(SRC_DIR)/exp.so .
+	cp ./$(SRC_DIR)/module.so exp.so
 
 clean: FORCE
 	rm -rf *.xo *.so *.o
